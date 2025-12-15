@@ -1,0 +1,6 @@
+flask
+wikipedia
+requests
+beautifulsoup4
+lxml
+google-search-results

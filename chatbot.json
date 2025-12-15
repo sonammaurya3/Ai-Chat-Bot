@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": ["Hello! How can I help you?", "Hey! What do you want to know?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you", "goodbye", "take care"],
+      "responses": ["Bye! Have a great day!", "See you later!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thx"],
+      "responses": ["You're welcome!", "No problem!"]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["what courses are available", "list of courses", "which courses do you offer"],
+      "responses": ["We offer BCA, BBA, and BSc programs."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["fee structure", "fees", "how much is the fee"],
+      "responses": ["BCA course fee is around ₹50,000 per year. Contact admin for exact details."]
+    },
+    {
+      "tag": "timetable",
+      "patterns": ["class schedule", "timetable", "when are the classes"],
+      "responses": ["Classes run Monday to Friday, 9:30 AM to 4:30 PM."]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": ["Sorry, I didn't understand that. Could you rephrase?"]
+    }
+  ]
+}
